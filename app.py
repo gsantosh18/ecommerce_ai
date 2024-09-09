@@ -10,7 +10,7 @@ from streamlit_pdf_viewer import pdf_viewer
 
 #these are main classes your image is trained on
 #you can define the classes in alphabectical order
-PREDICTED_LABELS = ["jeans", "sofa","tv"] # Edit 1
+PREDICTED_LABELS = ["jeans","sofa","tv","thsirt"] # Edit 1
 PREDICTED_LABELS.sort()
 
 def get_prediction(image_data):
